@@ -6,6 +6,13 @@
       0 => 'Fruitcake\\Cors\\CorsServiceProvider',
     ),
   ),
+  'genealabs/laravel-caffeine' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'GeneaLabs\\LaravelCaffeine\\Providers\\Service',
+    ),
+  ),
   'jenssegers/agent' => 
   array (
     'providers' => 
@@ -50,6 +57,13 @@
     'providers' => 
     array (
       0 => 'Laravel\\Tinker\\TinkerServiceProvider',
+    ),
+  ),
+  'laravel/ui' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Laravel\\Ui\\UiServiceProvider',
     ),
   ),
   'livewire/livewire' => 

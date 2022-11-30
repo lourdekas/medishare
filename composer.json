@@ -10,13 +10,16 @@
   "require": {
     "php": "^8.0.2",
     "fruitcake/laravel-cors": "^2.0.5",
+    "genealabs/laravel-caffeine": "^9.0",
     "guzzlehttp/guzzle": "^7.2",
     "laravel/framework": "^9.0",
     "laravel/jetstream": "2.8.5",
     "laravel/sanctum": "^2.14",
     "laravel/tinker": "^2.7",
+    "laravel/ui": "^4.0",
     "livewire/livewire": "^2.5",
-    "nunomaduro/laravel-desktop-notifier": "^2.6"
+    "nunomaduro/laravel-desktop-notifier": "^2.6",
+    "pixinvent/frest-html-laravel-jetstream": "dev-master"
   },
   "require-dev": {
     "fakerphp/faker": "^1.9.1",
@@ -24,7 +27,6 @@
     "mockery/mockery": "^1.4.4",
     "nunomaduro/collision": "^6.1",
     "phpunit/phpunit": "^9.5.10",
-    "pixinvent/frest-html-laravel-jetstream": "dev-master",
     "spatie/laravel-ignition": "^1.0"
   },
   "autoload": {
