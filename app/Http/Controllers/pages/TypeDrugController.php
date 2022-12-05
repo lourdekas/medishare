@@ -39,4 +39,12 @@ class TypeDrugController extends Controller
       ]);
         return redirect()->route('pages-types_drugs');
     }
+
+    public function destroy($id)
+    {
+        $type = TypeDrug::find($id);
+        $type->delete();
+        
+        return redirect()->route('pages-types_drugs');
+    }
 }

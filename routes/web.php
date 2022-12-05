@@ -34,6 +34,7 @@ $controller_path = 'App\Http\Controllers';
     Route::post('/types_drugs', $controller_path. '\pages\TypeDrugController@store')->name('pages-types_drugs-store');
     Route::get('/types_drugs/{id}', $controller_path. '\pages\TypeDrugController@edit')->name('pages-types_drugs-edit');
     Route::post('/types_drugs/update', $controller_path. '\pages\TypeDrugController@update')->name('pages-types_drugs-update');
+    Route::get('/types_drugs/destroy/{id}', $controller_path. '\pages\TypeDrugController@destroy')->name('pages-types_drugs-destroy');
     
     
 });
